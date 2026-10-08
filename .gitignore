@@ -13,6 +13,8 @@ target/
 application-local.properties
 application-secrets.properties
 application-*.local.properties
+application-*.secret.properties
+application-*.secrets.properties
 
 # IDEs
 .idea/
@@ -40,7 +42,10 @@ Desktop.ini
 .env
 .env.*
 !.env.example
+.envrc
 secrets/
+.secrets/
+*.credentials
 *.pem
 *.key
 *.p12
